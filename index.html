@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Train Scheduler</title>
+</head>
+<body>
+<div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-text">
+              Check the Train Schedule! Create Your Own Journey!
+            </span>
+          </nav>
+     <div class="card">
+            <img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">
+            <h3 class="card-header">Current Train Schedule</h3>
+            <div class="card-body"> 
+                    <table class="table table-sm table-hover table-dark">
+                            <thead>
+                              <tr>
+                                <th scope="col">Route Name</th>
+                                <th scope="col">Destination</th>
+                                <th scope="col">Frequency</th>
+                                <th scope="col">Next Arrival</th>
+                                <th scope="col">Minutes Away</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row"></th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"></th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row"></th>
+                                <td>Larry </td>
+                                <td> the Bird</td>
+                                <td>@twitter</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+            </div> 
+ </div><!--end of first card-->
+          
+ <div class="card">
+        <img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">
+        <h3 class="card-header">Create Your Own Railway Journey</h3>
+        <div class="card-body"> 
+
+<form>
+  <div class="form-group">
+    <label>Route Name</label>
+    <input  class="form-control" id="exampleInputEmail1">
+   
+  </div>
+  <div class="form-group">
+    <label >Destination</label>
+    <input class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="form-group">
+        <label>First Arrival Time (please use military time)</label>
+        <input  class="form-control" id="exampleInputEmail1">
+       
+      </div>
+      <div class="form-group">
+        <label >Frequency (in minutes)</label>
+        <input class="form-control" id="exampleInputPassword1">
+      </div>
+
+
+  
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+
+
+
+
+
+        </div>
+ </div> <!--end of 2nd card -->
+
+ </div>
+      
+ <!-- jQuery -->
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+ <!-- Script -->
+ <script type="text/javascript" src="app.js"></script>  
+</body>
+</html>
