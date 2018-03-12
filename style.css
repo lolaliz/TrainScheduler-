@@ -1,0 +1,14 @@
+body {
+    font-family: 'Ranmetto One', cursive;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 200px;
+    letter-spacing: 5px;
+}
+
+
+#heading {
+    font-size: 50px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 'Extra-Light Italic';
+}
