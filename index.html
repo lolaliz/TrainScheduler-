@@ -19,38 +19,19 @@
             <img class="card-img-top" src="/images/pathToYourImage.png" alt="Card image cap">
             <h3 class="card-header">Current Train Schedule</h3>
             <div class="card-body"> 
-                    <table class="table table-sm table-hover table-dark">
+                    <table class="table table-sm table-hover table-dark" id ="trainRouteTable">
                             <thead>
                               <tr>
                                 <th scope="col">Route Name</th>
                                 <th scope="col">Destination</th>
-                                <th scope="col">Frequency</th>
+                                <th scope="col">Frequency(minutes)</th>
                                 <th scope="col">Next Arrival</th>
                                 <th scope="col">Minutes Away</th>
                               </tr>
                             </thead>
                             <tbody>
-                              <tr>
-                                <th scope="row"></th>
-                                <td>Mark</td>
-                                <td>Otto</td>
-                                <td>@mdo</td>
-                                <td>@mdo</td>
-                              </tr>
-                              <tr>
-                                <th scope="row"></th>
-                                <td>Jacob</td>
-                                <td>Thornton</td>
-                                <td>@fat</td>
-                                <td>@fat</td>
-                              </tr>
-                              <tr>
-                                <th scope="row"></th>
-                                <td>Larry </td>
-                                <td> the Bird</td>
-                                <td>@twitter</td>
-                                <td>@twitter</td>
-                              </tr>
+                              
+                              
                             </tbody>
                           </table>
             </div> 
@@ -64,32 +45,28 @@
 <form>
   <div class="form-group">
     <label>Route Name</label>
-    <input  class="form-control" id="exampleInputEmail1">
+    <input  class="form-control" id="route">
    
   </div>
   <div class="form-group">
     <label >Destination</label>
-    <input class="form-control" id="exampleInputPassword1">
+    <input class="form-control" id="destination">
   </div>
 
   <div class="form-group">
-        <label>First Arrival Time (please use military time)</label>
-        <input  class="form-control" id="exampleInputEmail1">
+        <label>First Arrival Time (please use military time - HH:mm )</label>
+        <input  class="form-control" id="arrivalTime">
        
       </div>
       <div class="form-group">
         <label >Frequency (in minutes)</label>
-        <input class="form-control" id="exampleInputPassword1">
+        <input class="form-control" id="frequency">
       </div>
 
 
   
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
 </form>
-
-
-
-
 
 
         </div>
@@ -99,8 +76,13 @@
       
  <!-- jQuery -->
  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+ <!--Firebase-->
+ <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+ <!--moment.js-->
+ <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+ <!--script-->
+ <script type="text/javascript" src="app.js"></script> 
 
- <!-- Script -->
- <script type="text/javascript" src="app.js"></script>  
 </body>
 </html>
