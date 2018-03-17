@@ -1,0 +1,26 @@
+
+body {
+    background-image: url(images/ryan-tang-273377-unsplash.jpg);
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+#heading {
+    margin-bottom: 20px;
+}
+
+#headingText {
+    color: black;
+}
+
+#currentSchedule {
+    float: left;
+    opacity: 0.7;
+    font-weight: bold;
+    
+}
+
+#addTripForm {
+    opacity: 0.8;
+    font-weight: bold;
+}

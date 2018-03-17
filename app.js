@@ -28,6 +28,11 @@ var config = {
 
       database.ref().push(newTrip)
 
+      $("#route").val("");
+      $("#destination").val("");
+      $("#arrivalTime").val("");
+      $("#frequency").val("");
+
   });
 
 
